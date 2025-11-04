@@ -132,6 +132,8 @@ body {
 }
 
 /* #region-main */
+
+
 .hero-section {
     background-color: #2e2f42;
 }
@@ -159,6 +161,39 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404bbf;
+}
+
+/* #region-hero */
+.hero {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
+.hero-title {
+    max-width: 496px;
+    margin: 0 auto 48px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--iris-color, #4d5ae5);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 /* #region-features */
