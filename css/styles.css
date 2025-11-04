@@ -233,7 +233,6 @@ font-size: 16px;
 }
 /* #region-ourteam */
 
-/* ===================== Our Team ===================== */
 .ourteam {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -256,8 +255,11 @@ font-size: 16px;
 
 .ourteam-item {
     background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
+}
+
+.ourteam-item:first-child {
+    width: calc((100% - 72px) / 4);
 }
 
 .ourteam-info {
