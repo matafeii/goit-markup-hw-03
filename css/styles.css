@@ -186,7 +186,9 @@ body {
 }
 
 /* #region-features */
-.features {}
+.features {
+    padding: 120px 0;
+}
 
 .features-list {
     list-style: none;
