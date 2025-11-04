@@ -233,6 +233,7 @@ font-size: 16px;
 }
 /* #region-ourteam */
 
+/* ===================== Our Team ===================== */
 .ourteam {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -249,57 +250,36 @@ font-size: 16px;
 }
 
 .ourteam-list {
-    background-color: #ffffff;
     display: flex;
     gap: 24px;
-
-}
-.mark {
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    padding: 32px 0;
-
 }
 
-.features-alt {
-    background-color: #f4f4fd;
-}
-
-.features-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 1.5em;
-}
-
-.features-list-alt {
-    list-style: none;
-    margin: 0;
-}
-
-.feature-item {
+.ourteam-item {
     background-color: #ffffff;
-    margin-bottom: 1em;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
-.feature-title {
+.ourteam-info {
+    padding: 32px 0;
+}
+
+.ourteam-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 0 0 0.5em 0;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
-.feature-text {
-    font-size: 16px;
+.ourteam-position {
+    font: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 0;
+    text-align: center;
 }
 
 /* #region-ourportfolio */
