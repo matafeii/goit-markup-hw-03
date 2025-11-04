@@ -197,6 +197,7 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
 .features {
@@ -232,8 +233,10 @@ font-size: 16px;
 
 }
 /* #region-ourteam */
+
 .ourteam {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .ourteam-hero {
@@ -243,10 +246,20 @@ font-size: 16px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .ourteam-list {
     background-color: #ffffff;
+    display: flex;
+    gap: 24px;
+
+}
+.mark {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    padding: 32px 0;
+    
 }
 
 .features-alt {
