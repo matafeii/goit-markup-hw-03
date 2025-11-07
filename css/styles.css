@@ -42,6 +42,10 @@ body {
     margin-right: 76px;
 }
 
+.logo-span {
+    color: #2e2f42;
+    
+}
 .nav-list {
     display: flex;
     gap: 40px;
