@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
 
+.h1,h2,h3,h4,h5,h6 {margin: 0;}
 /* #region-body */
 body {
     font-family: "Roboto", sans-serif;
@@ -267,7 +268,7 @@ font-size: 16px;
     margin: 0;
 }
 
-.ourteam-list li:first-child {
+.ourteam-list {
     width: calc((100% - 72px) / 4);
 }
 
@@ -319,7 +320,7 @@ font-size: 16px;
     margin: 0;
 }
 
-.ourportfolio-item:first-child {
+.ourportfolio-item {
     width: calc((100% - 48px) / 3);
 }
 
